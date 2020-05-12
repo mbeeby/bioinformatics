@@ -1,0 +1,14 @@
+#                                                                                   --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name                            accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#                    ------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+lcl|NC_002163.1_prot_YP_002345057.1_1536 -          Ribosomal_L18p       PF00861.21   2.3e-36  121.3   3.7   2.6e-36  121.1   3.7   1.0   1   0   0   1   1   1   1 [gene=rplR] [protein=50S ribosomal protein L18] [protein_id=YP_002345057.1] [location=complement(1613073..1613429)]
+#
+# Program:         hmmsearch
+# Version:         3.1b1 (May 2013)
+# Pipeline mode:   SEARCH
+# Query file:      /beebylab/home/mbeeby/genomics/hmms//L18.hmm
+# Target file:     /beebylab/home/mbeeby/projects/giantFlagellins/small_genome_set/Campy.faa
+# Option settings: hmmsearch --tblout .tbloutFile959914 --domtblout .domtbloutFile959914 /beebylab/home/mbeeby/genomics/hmms//L18.hmm /beebylab/home/mbeeby/projects/giantFlagellins/small_genome_set/Campy.faa 
+# Current dir:     /beebylab/home/mbeeby/workspace/bioinformatics/annotate
+# Date:            Wed Aug  2 17:55:22 2017
+# [ok]

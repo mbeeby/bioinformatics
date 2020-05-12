@@ -1,0 +1,14 @@
+#                                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name                         accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#                 ------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+lcl|NC_003197.2_prot_NP_460929.1_1921 -          FliM                 PF02154.14   1.6e-80  267.6   0.0   2.3e-80  267.0   0.0   1.3   1   0   0   1   1   1   1 [gene=fliM] [protein=flagellar motor switch protein FliM] [protein_id=NP_460929.1] [location=2063532..2064536]
+#
+# Program:         hmmsearch
+# Version:         3.1b1 (May 2013)
+# Pipeline mode:   SEARCH
+# Query file:      /beebylab/home/mbeeby/genomics/hmms//FliM.hmm
+# Target file:     /beebylab/home/mbeeby/projects/giantFlagellins/small_genome_set/Salmonella.faa
+# Option settings: hmmsearch --tblout .tbloutFile524108 --domtblout .domtbloutFile524108 /beebylab/home/mbeeby/genomics/hmms//FliM.hmm /beebylab/home/mbeeby/projects/giantFlagellins/small_genome_set/Salmonella.faa 
+# Current dir:     /beebylab/home/mbeeby/workspace/bioinformatics/annotate
+# Date:            Wed Aug  2 17:55:17 2017
+# [ok]

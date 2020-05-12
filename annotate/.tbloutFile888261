@@ -1,0 +1,14 @@
+#                                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name                         accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#                 ------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+lcl|NC_003197.2_prot_NP_462318.1_3310 -          Ribosomal_L17        PF01196.18   2.8e-35  119.1   0.0   3.4e-35  118.9   0.0   1.1   1   0   0   1   1   1   1 [gene=rplQ] [protein=50S ribosomal protein L17] [protein_id=NP_462318.1] [location=complement(3582884..3583267)]
+#
+# Program:         hmmsearch
+# Version:         3.1b1 (May 2013)
+# Pipeline mode:   SEARCH
+# Query file:      /beebylab/home/mbeeby/genomics/hmms//L17.hmm
+# Target file:     /beebylab/home/mbeeby/projects/giantFlagellins/small_genome_set/Salmonella.faa
+# Option settings: hmmsearch --tblout .tbloutFile888261 --domtblout .domtbloutFile888261 /beebylab/home/mbeeby/genomics/hmms//L17.hmm /beebylab/home/mbeeby/projects/giantFlagellins/small_genome_set/Salmonella.faa 
+# Current dir:     /beebylab/home/mbeeby/workspace/bioinformatics/annotate
+# Date:            Wed Aug  2 17:55:19 2017
+# [ok]

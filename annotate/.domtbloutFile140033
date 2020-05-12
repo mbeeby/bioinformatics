@@ -1,0 +1,14 @@
+#                                                                                                --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                            accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                    ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+lcl|NC_009438.1_prot_WP_006083609.1_3819 -            166 Ribosomal_L10        PF00466.19   100   4.4e-25   85.6   0.0   1   1   1.7e-28   6.9e-25   85.0   0.0     4   100     6   101     4   101 0.98 [gene=SPUTCN32_RS19560] [protein=/inference=COORDINATES: similar to AA sequence:RefSeq:NP_715862.1] [protein_id=WP_006083609.1] [location=complement(4375765..4376265)]
+#
+# Program:         hmmsearch
+# Version:         3.1b1 (May 2013)
+# Pipeline mode:   SEARCH
+# Query file:      /beebylab/home/mbeeby/genomics/hmms//L10.hmm
+# Target file:     /beebylab/home/mbeeby/projects/giantFlagellins/small_genome_set/Shewanella.faa
+# Option settings: hmmsearch --tblout .tbloutFile140033 --domtblout .domtbloutFile140033 /beebylab/home/mbeeby/genomics/hmms//L10.hmm /beebylab/home/mbeeby/projects/giantFlagellins/small_genome_set/Shewanella.faa 
+# Current dir:     /beebylab/home/mbeeby/workspace/bioinformatics/annotate
+# Date:            Wed Aug  2 17:55:16 2017
+# [ok]

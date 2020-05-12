@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+WP_044548425.1       -            315 TonB_C               PF03544.13    79   8.5e-20   69.7   1.4   1   2      0.77   2.7e+03   -2.4   0.2    57    73   160   176   156   179 0.73 energy transducer TonB [Mesorhizobium loti]
+WP_044548425.1       -            315 TonB_C               PF03544.13    79   8.5e-20   69.7   1.4   2   2   3.3e-23   1.2e-19   69.3   0.1     2    79   237   313   236   313 0.96 energy transducer TonB [Mesorhizobium loti]
+WP_010912027.1       -            385 TonB_C               PF03544.13    79   2.4e-06   26.6   0.0   1   1     2e-09   7.3e-06   25.1   0.0    17    77   316   377   312   379 0.79 hypothetical protein [Mesorhizobium loti]
+#
+# Program:         hmmsearch
+# Version:         3.1b1 (May 2013)
+# Pipeline mode:   SEARCH
+# Query file:      /beebylab/home/mbeeby/genomics/hmms//TonBc.hmm
+# Target file:     /beebylab/data/genomics/ncbi-genomes-2017-07-03/GCF_000009625.1_ASM962v1_protein.faa
+# Option settings: hmmsearch --tblout .tbloutFile59238 --domtblout .domtbloutFile59238 /beebylab/home/mbeeby/genomics/hmms//TonBc.hmm /beebylab/data/genomics/ncbi-genomes-2017-07-03/GCF_000009625.1_ASM962v1_protein.faa 
+# Current dir:     /beebylab/home/mbeeby/workspace/bioinformatics/annotate
+# Date:            Wed Aug  2 14:56:49 2017
+# [ok]

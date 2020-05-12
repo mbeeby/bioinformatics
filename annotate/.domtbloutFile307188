@@ -1,0 +1,14 @@
+#                                                                                             --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                         accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                 ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+lcl|NC_003197.2_prot_NP_462328.1_3320 -            117 Ribosomal_L18p       PF00861.21   116   1.7e-44  148.9   4.7   1   1   4.3e-48   1.9e-44  148.8   4.7     1   116     1   117     1   117 0.96 [gene=rplR] [protein=50S ribosomal protein L18] [protein_id=NP_462328.1] [location=complement(3588512..3588865)]
+#
+# Program:         hmmsearch
+# Version:         3.1b1 (May 2013)
+# Pipeline mode:   SEARCH
+# Query file:      /beebylab/home/mbeeby/genomics/hmms//L18.hmm
+# Target file:     /beebylab/home/mbeeby/projects/giantFlagellins/small_genome_set/Salmonella.faa
+# Option settings: hmmsearch --tblout .tbloutFile307188 --domtblout .domtbloutFile307188 /beebylab/home/mbeeby/genomics/hmms//L18.hmm /beebylab/home/mbeeby/projects/giantFlagellins/small_genome_set/Salmonella.faa 
+# Current dir:     /beebylab/home/mbeeby/workspace/bioinformatics/annotate
+# Date:            Wed Aug  2 17:55:19 2017
+# [ok]

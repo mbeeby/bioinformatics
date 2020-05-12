@@ -1,0 +1,20 @@
+#                                                                                                --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                            accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                    ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+lcl|NC_009438.1_prot_WP_011788773.1_2604 -            348 FliG_M               PF14841.5     76   6.8e-35  117.0   7.8   1   3     2e-07    0.0004   18.5   0.1    17    63    27    73    23    84 0.86 [gene=SPUTCN32_RS13345] [protein=/inference=COORDINATES: similar to AA sequence:RefSeq:NP_718782.1] [protein_id=WP_011788773.1] [location=complement(2995273..2996319)]
+lcl|NC_009438.1_prot_WP_011788773.1_2604 -            348 FliG_M               PF14841.5     76   6.8e-35  117.0   7.8   2   3   8.4e-32   1.7e-28   96.6   0.4     2    74   131   203   130   205 0.96 [gene=SPUTCN32_RS13345] [protein=/inference=COORDINATES: similar to AA sequence:RefSeq:NP_718782.1] [protein_id=WP_011788773.1] [location=complement(2995273..2996319)]
+lcl|NC_009438.1_prot_WP_011788773.1_2604 -            348 FliG_M               PF14841.5     76   6.8e-35  117.0   7.8   3   3    0.0054        11    4.3   0.2    27    65   214   249   212   251 0.81 [gene=SPUTCN32_RS13345] [protein=/inference=COORDINATES: similar to AA sequence:RefSeq:NP_718782.1] [protein_id=WP_011788773.1] [location=complement(2995273..2996319)]
+lcl|NC_009438.1_prot_WP_081429808.1_3516 -            336 FliG_M               PF14841.5     76   1.7e-19   67.7   9.6   1   4     3e-06     0.006   14.7   0.1    16    61    15    60     7    73 0.82 [gene=fliG] [protein=/inference=COORDINATES: similar to AA sequence:RefSeq:WP_006083405.1; One of three proteins involved in switching the directio>] [protein_id=WP_081429808.1] [location=complement(4038701..4039711)]
+lcl|NC_009438.1_prot_WP_081429808.1_3516 -            336 FliG_M               PF14841.5     76   1.7e-19   67.7   9.6   2   4   2.7e-19   5.3e-16   56.5   1.1     1    71   119   189   119   194 0.94 [gene=fliG] [protein=/inference=COORDINATES: similar to AA sequence:RefSeq:WP_006083405.1; One of three proteins involved in switching the directio>] [protein_id=WP_081429808.1] [location=complement(4038701..4039711)]
+lcl|NC_009438.1_prot_WP_081429808.1_3516 -            336 FliG_M               PF14841.5     76   1.7e-19   67.7   9.6   3   4      0.44   8.8e+02   -1.9   0.0    26    38   202   214   198   224 0.72 [gene=fliG] [protein=/inference=COORDINATES: similar to AA sequence:RefSeq:WP_006083405.1; One of three proteins involved in switching the directio>] [protein_id=WP_081429808.1] [location=complement(4038701..4039711)]
+lcl|NC_009438.1_prot_WP_081429808.1_3516 -            336 FliG_M               PF14841.5     76   1.7e-19   67.7   9.6   4   4      0.15     3e+02   -0.4   0.1    16    53   263   300   249   322 0.71 [gene=fliG] [protein=/inference=COORDINATES: similar to AA sequence:RefSeq:WP_006083405.1; One of three proteins involved in switching the directio>] [protein_id=WP_081429808.1] [location=complement(4038701..4039711)]
+#
+# Program:         hmmsearch
+# Version:         3.1b1 (May 2013)
+# Pipeline mode:   SEARCH
+# Query file:      /beebylab/home/mbeeby/genomics/hmms//FliGm.hmm
+# Target file:     /beebylab/home/mbeeby/projects/giantFlagellins/small_genome_set/Shewanella.faa
+# Option settings: hmmsearch --tblout .tbloutFile848197 --domtblout .domtbloutFile848197 /beebylab/home/mbeeby/genomics/hmms//FliGm.hmm /beebylab/home/mbeeby/projects/giantFlagellins/small_genome_set/Shewanella.faa 
+# Current dir:     /beebylab/home/mbeeby/workspace/bioinformatics/annotate
+# Date:            Wed Aug  2 17:55:14 2017
+# [ok]

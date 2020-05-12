@@ -1,0 +1,15 @@
+#                                                                                   --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name                            accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#                    ------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+lcl|NC_009438.1_prot_WP_011919621.1_2623 -          FlaE                 PF07559.13   7.7e-26   89.0   4.9   7.7e-26   89.0   4.9   2.6   3   1   0   3   3   3   1 [gene=SPUTCN32_RS13440] [protein=/inference=COORDINATES: similar to AA sequence:RefSeq:NP_718801.1] [protein_id=WP_011919621.1] [location=complement(3015418..3016779)]
+lcl|NC_009438.1_prot_WP_011920055.1_3506 -          FlaE                 PF07559.13   1.2e-23   81.9   7.2   1.2e-23   81.9   7.2   3.0   3   1   0   3   3   3   1 [gene=flgE] [protein=/inference=COORDINATES: similar to AA sequence:RefSeq:WP_011787862.1; the hook connects flagellar basal body to the flagellar >] [protein_id=WP_011920055.1] [location=complement(4031878..4033065)]
+#
+# Program:         hmmsearch
+# Version:         3.1b1 (May 2013)
+# Pipeline mode:   SEARCH
+# Query file:      /beebylab/home/mbeeby/genomics/hmms//FlaE.hmm
+# Target file:     /beebylab/home/mbeeby/projects/giantFlagellins/small_genome_set/Shewanella.faa
+# Option settings: hmmsearch --tblout .tbloutFile45022 --domtblout .domtbloutFile45022 /beebylab/home/mbeeby/genomics/hmms//FlaE.hmm /beebylab/home/mbeeby/projects/giantFlagellins/small_genome_set/Shewanella.faa 
+# Current dir:     /beebylab/home/mbeeby/workspace/bioinformatics/annotate
+# Date:            Wed Aug  2 17:55:15 2017
+# [ok]

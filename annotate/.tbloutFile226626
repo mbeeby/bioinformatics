@@ -1,0 +1,19 @@
+#                                                                                         --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name                            accession  query name                 accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#                    ------------------- ----------       -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+lcl|NC_009438.1_prot_WP_011919615.1_2615 -          170724_flagellin-alignment -           1.6e-112  374.6  40.8   6.7e-74  247.5  20.9   2.0   1   1   1   2   2   2   2 [gene=SPUTCN32_RS13400] [protein=/inference=COORDINATES: similar to AA sequence:RefSeq:NP_718793.1] [protein_id=WP_011919615.1] [location=complement(3006629..3007450)]
+lcl|NC_009438.1_prot_WP_011919614.1_2614 -          170724_flagellin-alignment -           7.2e-110  365.8  39.0   4.6e-73  244.7  19.9   2.0   1   1   1   2   2   2   2 [gene=SPUTCN32_RS13395] [protein=/inference=COORDINATES: similar to AA sequence:RefSeq:NP_718792.1] [protein_id=WP_011919614.1] [location=complement(3005553..3006368)]
+lcl|NC_009438.1_prot_WP_011787872.1_3496 -          170724_flagellin-alignment -            1.2e-96  322.3  30.6   1.1e-63  213.8  16.6   2.0   1   1   1   2   2   2   2 [gene=SPUTCN32_RS17930] [protein=/inference=COORDINATES: similar to AA sequence:RefSeq:WP_011848025.1] [protein_id=WP_011787872.1] [location=complement(4022795..4023607)]
+lcl|NC_009438.1_prot_WP_011787871.1_3497 -          170724_flagellin-alignment -            1.1e-94  315.9  34.4   4.8e-62  208.4  20.6   2.0   1   1   1   2   2   2   2 [gene=SPUTCN32_RS17935] [protein=/inference=COORDINATES: similar to AA sequence:RefSeq:WP_011787871.1] [protein_id=WP_011787871.1] [location=complement(4023845..4024648)]
+lcl|NC_009438.1_prot_WP_011919616.1_2616 -          170724_flagellin-alignment -              9e-18   62.7  19.6   3.1e-17   60.9  19.5   1.9   1   1   0   1   1   1   1 [gene=flgL] [protein=/inference=COORDINATES: similar to AA sequence:RefSeq:NP_718794.1] [protein_id=WP_011919616.1] [location=complement(3007553..3008764)]
+lcl|NC_009438.1_prot_WP_011920049.1_3499 -          170724_flagellin-alignment -              0.021   12.1  16.2      0.35    8.1  16.2   2.2   1   1   0   1   1   1   0 [gene=flgL] [protein=/inference=COORDINATES: similar to AA sequence:RefSeq:WP_011920049.1] [protein_id=WP_011920049.1] [location=complement(4025819..4026736)]
+#
+# Program:         hmmsearch
+# Version:         3.1b1 (May 2013)
+# Pipeline mode:   SEARCH
+# Query file:      /beebylab/home/mbeeby/genomics/hmms//FlorianFliC.hmm
+# Target file:     /beebylab/home/mbeeby/projects/giantFlagellins/small_genome_set/Shewanella.faa
+# Option settings: hmmsearch --tblout .tbloutFile226626 --domtblout .domtbloutFile226626 /beebylab/home/mbeeby/genomics/hmms//FlorianFliC.hmm /beebylab/home/mbeeby/projects/giantFlagellins/small_genome_set/Shewanella.faa 
+# Current dir:     /beebylab/home/mbeeby/workspace/bioinformatics/annotate
+# Date:            Wed Aug  2 17:55:15 2017
+# [ok]

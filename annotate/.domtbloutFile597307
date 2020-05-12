@@ -1,0 +1,14 @@
+#                                                                                                --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                            accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                    ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+lcl|NC_009438.1_prot_WP_007644470.1_3784 -            131 Ribosomal_L17        PF01196.18    94   4.1e-36  121.7   0.1   1   1   1.2e-39   4.9e-36  121.4   0.1     1    94    20   116    20   116 0.97 [gene=rplQ] [protein=/inference=COORDINATES: similar to AA sequence:RefSeq:NP_715897.1] [protein_id=WP_007644470.1] [location=complement(4348277..4348672)]
+#
+# Program:         hmmsearch
+# Version:         3.1b1 (May 2013)
+# Pipeline mode:   SEARCH
+# Query file:      /beebylab/home/mbeeby/genomics/hmms//L17.hmm
+# Target file:     /beebylab/home/mbeeby/projects/giantFlagellins/small_genome_set/Shewanella.faa
+# Option settings: hmmsearch --tblout .tbloutFile597307 --domtblout .domtbloutFile597307 /beebylab/home/mbeeby/genomics/hmms//L17.hmm /beebylab/home/mbeeby/projects/giantFlagellins/small_genome_set/Shewanella.faa 
+# Current dir:     /beebylab/home/mbeeby/workspace/bioinformatics/annotate
+# Date:            Wed Aug  2 17:55:17 2017
+# [ok]

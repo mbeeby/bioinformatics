@@ -1,0 +1,21 @@
+#                                                                                             --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                         accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                 ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+lcl|NC_003197.2_prot_NP_460912.1_1904 -            495 Flagellin_N          PF00669.19   139   8.5e-45  150.3  21.9   1   3   5.7e-48   8.5e-45  150.3  21.9     1   139     5   143     5   143 0.99 [gene=fliC] [protein=flagellin] [protein_id=NP_460912.1] [location=complement(2047655..2049142)]
+lcl|NC_003197.2_prot_NP_460912.1_1904 -            495 Flagellin_N          PF00669.19   139   8.5e-45  150.3  21.9   2   3      0.65   9.7e+02   -2.1   0.4    34    68   146   181   144   216 0.57 [gene=fliC] [protein=flagellin] [protein_id=NP_460912.1] [location=complement(2047655..2049142)]
+lcl|NC_003197.2_prot_NP_460912.1_1904 -            495 Flagellin_N          PF00669.19   139   8.5e-45  150.3  21.9   3   3     0.025        37    2.5   1.8    45    92   428   479   421   491 0.68 [gene=fliC] [protein=flagellin] [protein_id=NP_460912.1] [location=complement(2047655..2049142)]
+lcl|NC_003197.2_prot_NP_461698.1_2690 -            506 Flagellin_N          PF00669.19   139   8.8e-45  150.3  21.9   1   3   5.9e-48   8.8e-45  150.3  21.9     1   139     5   143     5   143 0.99 [gene=fljB] [protein=flagellin] [protein_id=NP_461698.1] [location=complement(2913234..2914754)]
+lcl|NC_003197.2_prot_NP_461698.1_2690 -            506 Flagellin_N          PF00669.19   139   8.8e-45  150.3  21.9   2   3      0.61     9e+02   -2.0   0.3    80    80   177   177   145   222 0.52 [gene=fljB] [protein=flagellin] [protein_id=NP_461698.1] [location=complement(2913234..2914754)]
+lcl|NC_003197.2_prot_NP_461698.1_2690 -            506 Flagellin_N          PF00669.19   139   8.8e-45  150.3  21.9   3   3     0.019        29    2.8   1.8    45    93   439   491   435   502 0.68 [gene=fljB] [protein=flagellin] [protein_id=NP_461698.1] [location=complement(2913234..2914754)]
+lcl|NC_003197.2_prot_NP_460155.1_1147 -            317 Flagellin_N          PF00669.19   139   2.8e-35  119.5  10.0   1   2   1.9e-38   2.8e-35  119.5  10.0     1   139     3   141     3   141 0.99 [gene=flgL] [protein=flagellar hook-filament junction protein FlgL] [protein_id=NP_460155.1] [location=1267134..1268087]
+lcl|NC_003197.2_prot_NP_460155.1_1147 -            317 Flagellin_N          PF00669.19   139   2.8e-35  119.5  10.0   2   2       0.2     3e+02   -0.5   0.2   104   122   225   243   203   270 0.61 [gene=flgL] [protein=flagellar hook-filament junction protein FlgL] [protein_id=NP_460155.1] [location=1267134..1268087]
+#
+# Program:         hmmsearch
+# Version:         3.1b1 (May 2013)
+# Pipeline mode:   SEARCH
+# Query file:      /beebylab/home/mbeeby/genomics/hmms//Flagellin_N.hmm
+# Target file:     /beebylab/home/mbeeby/projects/giantFlagellins/small_genome_set/Salmonella.faa
+# Option settings: hmmsearch --tblout .tbloutFile881614 --domtblout .domtbloutFile881614 /beebylab/home/mbeeby/genomics/hmms//Flagellin_N.hmm /beebylab/home/mbeeby/projects/giantFlagellins/small_genome_set/Salmonella.faa 
+# Current dir:     /beebylab/home/mbeeby/workspace/bioinformatics/annotate
+# Date:            Wed Aug  2 17:55:18 2017
+# [ok]

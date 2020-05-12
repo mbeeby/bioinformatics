@@ -1,0 +1,16 @@
+#                                                                                    --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name                            accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#                    ------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+lcl|NC_002163.1_prot_YP_002344286.1_783  -          170724_flgL-alignment -           4.3e-199  658.8  36.0  5.6e-199  658.4  36.0   1.2   1   0   0   1   1   1   1 [gene=Cj0887c] [protein=flagellin] [protein_id=YP_002344286.1] [location=complement(823633..825885)]
+lcl|NC_002163.1_prot_YP_002344726.1_1213 -          170724_flgL-alignment -            4.8e-19   65.5  25.3   3.3e-16   56.1  25.3   2.2   1   1   0   1   1   1   1 [gene=flaB] [protein=flagellin B] [protein_id=YP_002344726.1] [location=complement(1267368..1269086)]
+lcl|NC_002163.1_prot_YP_002344727.1_1214 -          170724_flgL-alignment -            2.3e-18   63.3  29.0   3.3e-16   56.1  14.2   2.2   1   1   1   2   2   2   2 [gene=flaA] [protein=flagellin A] [protein_id=YP_002344727.1] [location=complement(1269232..1270950)]
+#
+# Program:         hmmsearch
+# Version:         3.1b1 (May 2013)
+# Pipeline mode:   SEARCH
+# Query file:      /beebylab/home/mbeeby/genomics/hmms//FlorianFlgL.hmm
+# Target file:     /beebylab/home/mbeeby/projects/giantFlagellins/small_genome_set/Campy.faa
+# Option settings: hmmsearch --tblout .tbloutFile286841 --domtblout .domtbloutFile286841 /beebylab/home/mbeeby/genomics/hmms//FlorianFlgL.hmm /beebylab/home/mbeeby/projects/giantFlagellins/small_genome_set/Campy.faa 
+# Current dir:     /beebylab/home/mbeeby/workspace/bioinformatics/annotate
+# Date:            Wed Aug  2 17:55:22 2017
+# [ok]

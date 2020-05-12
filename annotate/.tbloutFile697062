@@ -1,0 +1,16 @@
+#                                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name                         accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#                 ------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+lcl|NC_003197.2_prot_NP_460922.1_1914 -          YscJ_FliF            PF01514.16   1.2e-77  258.0   0.3   4.2e-77  256.2   0.0   2.1   3   0   0   3   3   3   1 [gene=fliF] [protein=flagellar M-ring protein FliF] [protein_id=NP_460922.1] [location=2056536..2058218]
+lcl|NC_003197.2_prot_NP_460374.1_1366 -          YscJ_FliF            PF01514.16   1.6e-26   91.2   0.2   2.2e-26   90.8   0.2   1.0   1   0   0   1   1   1   1 [gene=ssaJ] [protein=EscJ/YscJ/HrcJ family type III secretion inner membrane ring protein] [protein_id=NP_460374.1] [location=1490268..1491017]
+lcl|NC_003197.2_prot_NP_461792.1_2784 -          YscJ_FliF            PF01514.16   1.7e-17   61.8   0.0   2.7e-17   61.1   0.0   1.2   1   0   0   1   1   1   1 [gene=prgK] [protein=EscJ/YscJ/HrcJ family type III secretion inner membrane ring protein] [protein_id=NP_461792.1] [location=complement(3015003..3015761)]
+#
+# Program:         hmmsearch
+# Version:         3.1b1 (May 2013)
+# Pipeline mode:   SEARCH
+# Query file:      /beebylab/home/mbeeby/genomics/hmms//FliF.hmm
+# Target file:     /beebylab/home/mbeeby/projects/giantFlagellins/small_genome_set/Salmonella.faa
+# Option settings: hmmsearch --tblout .tbloutFile697062 --domtblout .domtbloutFile697062 /beebylab/home/mbeeby/genomics/hmms//FliF.hmm /beebylab/home/mbeeby/projects/giantFlagellins/small_genome_set/Salmonella.faa 
+# Current dir:     /beebylab/home/mbeeby/workspace/bioinformatics/annotate
+# Date:            Wed Aug  2 17:55:18 2017
+# [ok]

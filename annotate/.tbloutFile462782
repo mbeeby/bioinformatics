@@ -1,0 +1,15 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+WP_044548425.1       -          TonB_C               PF03544.13   8.5e-20   69.7   1.4   1.2e-19   69.3   0.1   1.9   2   0   0   2   2   2   1 energy transducer TonB [Mesorhizobium loti]
+WP_010912027.1       -          TonB_C               PF03544.13   2.4e-06   26.6   0.0   7.3e-06   25.1   0.0   1.9   1   0   0   1   1   1   1 hypothetical protein [Mesorhizobium loti]
+#
+# Program:         hmmsearch
+# Version:         3.1b1 (May 2013)
+# Pipeline mode:   SEARCH
+# Query file:      /beebylab/home/mbeeby/genomics/hmms//TonBc.hmm
+# Target file:     /beebylab/data/genomics/ncbi-genomes-2017-07-03/GCF_000009625.1_ASM962v1_protein.faa
+# Option settings: hmmsearch --tblout .tbloutFile462782 --domtblout .domtbloutFile462782 /beebylab/home/mbeeby/genomics/hmms//TonBc.hmm /beebylab/data/genomics/ncbi-genomes-2017-07-03/GCF_000009625.1_ASM962v1_protein.faa 
+# Current dir:     /beebylab/home/mbeeby/workspace/bioinformatics/annotate
+# Date:            Wed Aug  2 14:54:28 2017
+# [ok]

@@ -1,0 +1,21 @@
+#                                                                                   --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name                            accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#                    ------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+lcl|NC_009438.1_prot_WP_011919615.1_2615 -          Flagellin_N          PF00669.19   7.2e-40  134.2  17.6   7.2e-40  134.2  17.6   2.4   1   1   1   2   2   2   1 [gene=SPUTCN32_RS13400] [protein=/inference=COORDINATES: similar to AA sequence:RefSeq:NP_718793.1] [protein_id=WP_011919615.1] [location=complement(3006629..3007450)]
+lcl|NC_009438.1_prot_WP_011919614.1_2614 -          Flagellin_N          PF00669.19   6.9e-39  131.0  16.8   6.9e-39  131.0  16.8   2.5   1   1   1   2   2   2   1 [gene=SPUTCN32_RS13395] [protein=/inference=COORDINATES: similar to AA sequence:RefSeq:NP_718792.1] [protein_id=WP_011919614.1] [location=complement(3005553..3006368)]
+lcl|NC_009438.1_prot_WP_011787872.1_3496 -          Flagellin_N          PF00669.19   1.9e-38  129.6  16.2   1.9e-38  129.6  16.2   2.2   2   0   0   2   2   2   1 [gene=SPUTCN32_RS17930] [protein=/inference=COORDINATES: similar to AA sequence:RefSeq:WP_011848025.1] [protein_id=WP_011787872.1] [location=complement(4022795..4023607)]
+lcl|NC_009438.1_prot_WP_011787871.1_3497 -          Flagellin_N          PF00669.19   3.9e-38  128.6  15.8   3.9e-38  128.6  15.8   2.7   2   1   0   2   2   2   1 [gene=SPUTCN32_RS17935] [protein=/inference=COORDINATES: similar to AA sequence:RefSeq:WP_011787871.1] [protein_id=WP_011787871.1] [location=complement(4023845..4024648)]
+lcl|NC_009438.1_prot_WP_011919616.1_2616 -          Flagellin_N          PF00669.19   1.2e-18   65.4   9.4   1.2e-18   65.4   9.4   2.4   2   0   0   2   2   2   1 [gene=flgL] [protein=/inference=COORDINATES: similar to AA sequence:RefSeq:NP_718794.1] [protein_id=WP_011919616.1] [location=complement(3007553..3008764)]
+lcl|NC_009438.1_prot_WP_011920049.1_3499 -          Flagellin_N          PF00669.19   2.8e-13   48.1   6.5   2.8e-13   48.1   6.5   2.4   2   1   1   3   3   3   1 [gene=flgL] [protein=/inference=COORDINATES: similar to AA sequence:RefSeq:WP_011920049.1] [protein_id=WP_011920049.1] [location=complement(4025819..4026736)]
+lcl|NC_009438.1_prot_WP_011789841.1_1559 -          Flagellin_N          PF00669.19     0.034   12.1   1.9     0.029   12.4   0.7   1.4   2   0   0   2   2   2   0 [gene=SPUTCN32_RS07860] [protein=/inference=COORDINATES: similar to AA sequence:RefSeq:NP_718404.1] [protein_id=WP_011789841.1] [location=1761021..1761377]
+lcl|NC_009438.1_prot_WP_011788719.1_2667 -          Flagellin_N          PF00669.19       1.6    6.7  40.5      0.11   10.5   8.4   4.7   3   2   1   4   4   4   0 [gene=SPUTCN32_RS13665] [protein=/inference=COORDINATES: similar to AA sequence:RefSeq:NP_718836.1] [protein_id=WP_011788719.1] [location=3059699..3061702]
+#
+# Program:         hmmsearch
+# Version:         3.1b1 (May 2013)
+# Pipeline mode:   SEARCH
+# Query file:      /beebylab/home/mbeeby/genomics/hmms//Flagellin_N.hmm
+# Target file:     /beebylab/home/mbeeby/projects/giantFlagellins/small_genome_set/Shewanella.faa
+# Option settings: hmmsearch --tblout .tbloutFile395101 --domtblout .domtbloutFile395101 /beebylab/home/mbeeby/genomics/hmms//Flagellin_N.hmm /beebylab/home/mbeeby/projects/giantFlagellins/small_genome_set/Shewanella.faa 
+# Current dir:     /beebylab/home/mbeeby/workspace/bioinformatics/annotate
+# Date:            Wed Aug  2 17:55:15 2017
+# [ok]

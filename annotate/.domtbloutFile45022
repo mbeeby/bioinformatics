@@ -1,0 +1,19 @@
+#                                                                                                --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                            accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                    ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+lcl|NC_009438.1_prot_WP_011919621.1_2623 -            453 FlaE                 PF07559.13   123   7.7e-26   89.0   4.9   1   3      0.13   2.6e+02    0.1   0.7    59    81    97   123    13   175 0.55 [gene=SPUTCN32_RS13440] [protein=/inference=COORDINATES: similar to AA sequence:RefSeq:NP_718801.1] [protein_id=WP_011919621.1] [location=complement(3015418..3016779)]
+lcl|NC_009438.1_prot_WP_011919621.1_2623 -            453 FlaE                 PF07559.13   123   7.7e-26   89.0   4.9   2   3   3.9e-29   7.7e-26   89.0   4.9     1   122   182   333   182   334 0.87 [gene=SPUTCN32_RS13440] [protein=/inference=COORDINATES: similar to AA sequence:RefSeq:NP_718801.1] [protein_id=WP_011919621.1] [location=complement(3015418..3016779)]
+lcl|NC_009438.1_prot_WP_011919621.1_2623 -            453 FlaE                 PF07559.13   123   7.7e-26   89.0   4.9   3   3      0.83   1.6e+03   -2.5   0.1    67    67   404   404   365   447 0.51 [gene=SPUTCN32_RS13440] [protein=/inference=COORDINATES: similar to AA sequence:RefSeq:NP_718801.1] [protein_id=WP_011919621.1] [location=complement(3015418..3016779)]
+lcl|NC_009438.1_prot_WP_011920055.1_3506 -            395 FlaE                 PF07559.13   123   1.2e-23   81.9   7.2   1   3      0.32   6.3e+02   -1.2   1.9    53    73    50    70    11   161 0.58 [gene=flgE] [protein=/inference=COORDINATES: similar to AA sequence:RefSeq:WP_011787862.1; the hook connects flagellar basal body to the flagellar >] [protein_id=WP_011920055.1] [location=complement(4031878..4033065)]
+lcl|NC_009438.1_prot_WP_011920055.1_3506 -            395 FlaE                 PF07559.13   123   1.2e-23   81.9   7.2   2   3   6.1e-27   1.2e-23   81.9   7.2     1   123   169   276   169   276 0.87 [gene=flgE] [protein=/inference=COORDINATES: similar to AA sequence:RefSeq:WP_011787862.1; the hook connects flagellar basal body to the flagellar >] [protein_id=WP_011920055.1] [location=complement(4031878..4033065)]
+lcl|NC_009438.1_prot_WP_011920055.1_3506 -            395 FlaE                 PF07559.13   123   1.2e-23   81.9   7.2   3   3      0.23   4.5e+02   -0.7   0.7    38    81   326   366   293   391 0.52 [gene=flgE] [protein=/inference=COORDINATES: similar to AA sequence:RefSeq:WP_011787862.1; the hook connects flagellar basal body to the flagellar >] [protein_id=WP_011920055.1] [location=complement(4031878..4033065)]
+#
+# Program:         hmmsearch
+# Version:         3.1b1 (May 2013)
+# Pipeline mode:   SEARCH
+# Query file:      /beebylab/home/mbeeby/genomics/hmms//FlaE.hmm
+# Target file:     /beebylab/home/mbeeby/projects/giantFlagellins/small_genome_set/Shewanella.faa
+# Option settings: hmmsearch --tblout .tbloutFile45022 --domtblout .domtbloutFile45022 /beebylab/home/mbeeby/genomics/hmms//FlaE.hmm /beebylab/home/mbeeby/projects/giantFlagellins/small_genome_set/Shewanella.faa 
+# Current dir:     /beebylab/home/mbeeby/workspace/bioinformatics/annotate
+# Date:            Wed Aug  2 17:55:15 2017
+# [ok]

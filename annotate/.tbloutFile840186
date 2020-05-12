@@ -1,0 +1,15 @@
+#                                                                                   --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name                            accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#                    ------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+lcl|NC_009438.1_prot_WP_081429798.1_2605 -          YscJ_FliF_C          PF08345.10   2.9e-45  152.2   4.9   4.9e-45  151.4   1.1   2.3   2   0   0   2   2   2   1 [gene=SPUTCN32_RS13350] [protein=/inference=COORDINATES: similar to AA sequence:RefSeq:NP_718783.2] [protein_id=WP_081429798.1] [location=complement(2996312..2998006)]
+lcl|NC_009438.1_prot_WP_011787851.1_3517 -          YscJ_FliF_C          PF08345.10   2.4e-36  123.3   6.4     3e-36  122.9   3.4   2.2   2   0   0   2   2   2   1 [gene=SPUTCN32_RS18035] [protein=/inference=COORDINATES: similar to AA sequence:RefSeq:WP_011787851.1] [protein_id=WP_011787851.1] [location=complement(4039704..4041380)]
+#
+# Program:         hmmsearch
+# Version:         3.1b1 (May 2013)
+# Pipeline mode:   SEARCH
+# Query file:      /beebylab/home/mbeeby/genomics/hmms//FliFc.hmm
+# Target file:     /beebylab/home/mbeeby/projects/giantFlagellins/small_genome_set/Shewanella.faa
+# Option settings: hmmsearch --tblout .tbloutFile840186 --domtblout .domtbloutFile840186 /beebylab/home/mbeeby/genomics/hmms//FliFc.hmm /beebylab/home/mbeeby/projects/giantFlagellins/small_genome_set/Shewanella.faa 
+# Current dir:     /beebylab/home/mbeeby/workspace/bioinformatics/annotate
+# Date:            Wed Aug  2 17:55:14 2017
+# [ok]

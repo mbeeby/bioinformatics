@@ -1,0 +1,13 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+#
+# Program:         hmmsearch
+# Version:         3.1b1 (May 2013)
+# Pipeline mode:   SEARCH
+# Query file:      /beebylab/home/mbeeby/genomics/hmms//FliFc.hmm
+# Target file:     /beebylab/data/genomics/ncbi-genomes-2017-07-03/GCF_000011465.1_ASM1146v1_protein.faa
+# Option settings: hmmsearch --tblout .tbloutFile874949 --domtblout .domtbloutFile874949 /beebylab/home/mbeeby/genomics/hmms//FliFc.hmm /beebylab/data/genomics/ncbi-genomes-2017-07-03/GCF_000011465.1_ASM1146v1_protein.faa 
+# Current dir:     /beebylab/home/mbeeby/workspace/bioinformatics/annotate
+# Date:            Wed Aug  2 16:23:16 2017
+# [ok]

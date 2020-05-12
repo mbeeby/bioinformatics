@@ -1,0 +1,15 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+WP_010911285.1       -          YscJ_FliF            PF01514.16   7.9e-61  203.8   0.1   1.9e-60  202.5   0.1   1.7   1   0   0   1   1   1   1 flagellar M-ring protein FliF [Mesorhizobium loti]
+WP_044549206.1       -          YscJ_FliF            PF01514.16   1.3e-27   95.4   0.0   1.9e-27   94.9   0.0   1.2   1   0   0   1   1   1   1 EscJ/YscJ/HrcJ family type III secretion inner membrane ring protein [Mesorhizobium loti]
+#
+# Program:         hmmsearch
+# Version:         3.1b1 (May 2013)
+# Pipeline mode:   SEARCH
+# Query file:      /beebylab/home/mbeeby/projects/giantFlagellins/hmms/FliF.hmm
+# Target file:     /beebylab/data/genomics/ncbi-genomes-2017-07-03/GCF_000009625.1_ASM962v1_protein.faa
+# Option settings: hmmsearch --tblout .tbloutFile850931 --domtblout .domtbloutFile850931 /beebylab/home/mbeeby/projects/giantFlagellins/hmms/FliF.hmm /beebylab/data/genomics/ncbi-genomes-2017-07-03/GCF_000009625.1_ASM962v1_protein.faa 
+# Current dir:     /beebylab/home/mbeeby/workspace/bioinformatics/annotate
+# Date:            Wed Aug  2 10:01:38 2017
+# [ok]

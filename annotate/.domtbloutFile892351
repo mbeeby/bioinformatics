@@ -1,0 +1,18 @@
+#                                                                                                --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                            accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                    ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+lcl|NC_009438.1_prot_WP_011788780.1_2597 -            127 FliMN_C              PF01052.19    73   7.6e-25   84.6   1.1   1   1   1.3e-27   1.1e-24   84.2   1.1     2    72    47   117    46   118 0.97 [gene=fliN] [protein=/inference=COORDINATES: similar to AA sequence:RefSeq:WP_011865175.1] [protein_id=WP_011788780.1] [location=complement(2988854..2989237)]
+lcl|NC_009438.1_prot_WP_025008807.1_3521 -            119 FliMN_C              PF01052.19    73   2.7e-23   79.6   0.5   1   1   4.7e-26   3.7e-23   79.2   0.5     4    71    41   108    40   110 0.97 [gene=SPUTCN32_RS18055] [protein=/inference=COORDINATES: similar to AA sequence:RefSeq:WP_011848040.1] [protein_id=WP_025008807.1] [location=4045018..4045377]
+lcl|NC_009438.1_prot_WP_011788779.1_2598 -            343 FliMN_C              PF01052.19    73   2.8e-15   54.0   0.0   1   1   6.6e-18   5.3e-15   53.1   0.0     1    72   249   318   249   319 0.97 [gene=SPUTCN32_RS13315] [protein=/inference=COORDINATES: similar to AA sequence:RefSeq:NP_718776.1] [protein_id=WP_011788779.1] [location=complement(2989249..2990280)]
+lcl|NC_009438.1_prot_WP_011787848.1_3520 -            293 FliMN_C              PF01052.19    73     2e-08   32.0   0.0   1   1   5.7e-11   4.6e-08   30.9   0.0     3    70   217   282   216   284 0.95 [gene=SPUTCN32_RS18050] [protein=/inference=COORDINATES: similar to AA sequence:RefSeq:WP_006083409.1] [protein_id=WP_011787848.1] [location=4044144..4045025]
+lcl|NC_009438.1_prot_WP_011920276.1_3933 -            236 FliMN_C              PF01052.19    73    0.0058   14.5   0.0   1   1   1.2e-05    0.0094   13.8   0.0     8    37     9    38     2    44 0.86 [gene=SPUTCN32_RS20155] [protein=/inference=COORDINATES: similar to AA sequence:RefSeq:NP_720237.1] [protein_id=WP_011920276.1] [location=4505802..4506512]
+#
+# Program:         hmmsearch
+# Version:         3.1b1 (May 2013)
+# Pipeline mode:   SEARCH
+# Query file:      /beebylab/home/mbeeby/genomics/hmms//FliMNc.hmm
+# Target file:     /beebylab/home/mbeeby/projects/giantFlagellins/small_genome_set/Shewanella.faa
+# Option settings: hmmsearch --tblout .tbloutFile892351 --domtblout .domtbloutFile892351 /beebylab/home/mbeeby/genomics/hmms//FliMNc.hmm /beebylab/home/mbeeby/projects/giantFlagellins/small_genome_set/Shewanella.faa 
+# Current dir:     /beebylab/home/mbeeby/workspace/bioinformatics/annotate
+# Date:            Wed Aug  2 17:55:15 2017
+# [ok]

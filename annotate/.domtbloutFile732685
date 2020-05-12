@@ -1,0 +1,17 @@
+#                                                                                                --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                            accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                    ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+lcl|NC_002163.1_prot_YP_002344127.1_635  -            445 SRP54_N              PF02881.18    75   6.2e-09   32.6   3.2   1   3   7.9e-12   6.2e-09   32.6   3.2     2    67     6    67     5    75 0.82 [gene=ffh] [protein=signal recognition particle protein] [protein_id=YP_002344127.1] [location=665788..667125]
+lcl|NC_002163.1_prot_YP_002344127.1_635  -            445 SRP54_N              PF02881.18    75   6.2e-09   32.6   3.2   2   3      0.18   1.4e+02   -0.6   0.1    15    34   188   206   180   207 0.76 [gene=ffh] [protein=signal recognition particle protein] [protein_id=YP_002344127.1] [location=665788..667125]
+lcl|NC_002163.1_prot_YP_002344127.1_635  -            445 SRP54_N              PF02881.18    75   6.2e-09   32.6   3.2   3   3      0.31   2.5e+02   -1.4   0.2    44    69   310   336   301   337 0.57 [gene=ffh] [protein=signal recognition particle protein] [protein_id=YP_002344127.1] [location=665788..667125]
+lcl|NC_002163.1_prot_YP_002344597.1_1089 -            288 SRP54_N              PF02881.18    75   9.3e-06   22.4   0.1   1   1   2.8e-08   2.2e-05   21.2   0.1     3    48    11    49     5    71 0.69 [gene=ftsY] [protein=signal recognition particle protein] [protein_id=YP_002344597.1] [location=complement(1135449..1136315)]
+#
+# Program:         hmmsearch
+# Version:         3.1b1 (May 2013)
+# Pipeline mode:   SEARCH
+# Query file:      /beebylab/home/mbeeby/genomics/hmms//SRP54n.hmm
+# Target file:     /beebylab/home/mbeeby/projects/giantFlagellins/small_genome_set/Campy.faa
+# Option settings: hmmsearch --tblout .tbloutFile732685 --domtblout .domtbloutFile732685 /beebylab/home/mbeeby/genomics/hmms//SRP54n.hmm /beebylab/home/mbeeby/projects/giantFlagellins/small_genome_set/Campy.faa 
+# Current dir:     /beebylab/home/mbeeby/workspace/bioinformatics/annotate
+# Date:            Wed Aug  2 17:55:20 2017
+# [ok]

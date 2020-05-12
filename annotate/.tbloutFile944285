@@ -1,0 +1,14 @@
+#                                                                                   --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name                            accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#                    ------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+lcl|NC_009438.1_prot_WP_006083599.1_3809 -          Ribosomal_L4         PF00573.21   3.9e-65  217.0   2.6   4.4e-65  216.9   2.6   1.0   1   0   0   1   1   1   1 [gene=SPUTCN32_RS19510] [protein=/inference=COORDINATES: similar to AA sequence:RefSeq:WP_010304939.1] [protein_id=WP_006083599.1] [location=complement(4360297..4360902)]
+#
+# Program:         hmmsearch
+# Version:         3.1b1 (May 2013)
+# Pipeline mode:   SEARCH
+# Query file:      /beebylab/home/mbeeby/genomics/hmms//L4.hmm
+# Target file:     /beebylab/home/mbeeby/projects/giantFlagellins/small_genome_set/Shewanella.faa
+# Option settings: hmmsearch --tblout .tbloutFile944285 --domtblout .domtbloutFile944285 /beebylab/home/mbeeby/genomics/hmms//L4.hmm /beebylab/home/mbeeby/projects/giantFlagellins/small_genome_set/Shewanella.faa 
+# Current dir:     /beebylab/home/mbeeby/workspace/bioinformatics/annotate
+# Date:            Wed Aug  2 17:55:17 2017
+# [ok]

@@ -1,0 +1,16 @@
+#                                                                                                --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                            accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                    ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+lcl|NC_009438.1_prot_WP_011787572.1_3810 -            212 Ribosomal_L3         PF00297.21   369   5.5e-14   49.8   7.2   1   3     0.057   2.3e+02   -1.6   0.0    46    60     5    19     3    66 0.53 [gene=SPUTCN32_RS19515] [protein=/inference=COORDINATES: similar to AA sequence:RefSeq:WP_005503531.1] [protein_id=WP_011787572.1] [location=complement(4360920..4361558)]
+lcl|NC_009438.1_prot_WP_011787572.1_3810 -            212 Ribosomal_L3         PF00297.21   369   5.5e-14   49.8   7.2   2   3   1.8e-17   7.2e-14   49.4   3.2   210   290   102   185    91   189 0.91 [gene=SPUTCN32_RS19515] [protein=/inference=COORDINATES: similar to AA sequence:RefSeq:WP_005503531.1] [protein_id=WP_011787572.1] [location=complement(4360920..4361558)]
+lcl|NC_009438.1_prot_WP_011787572.1_3810 -            212 Ribosomal_L3         PF00297.21   369   5.5e-14   49.8   7.2   3   3    0.0033        13    2.5   0.0   320   345   185   210   183   212 0.84 [gene=SPUTCN32_RS19515] [protein=/inference=COORDINATES: similar to AA sequence:RefSeq:WP_005503531.1] [protein_id=WP_011787572.1] [location=complement(4360920..4361558)]
+#
+# Program:         hmmsearch
+# Version:         3.1b1 (May 2013)
+# Pipeline mode:   SEARCH
+# Query file:      /beebylab/home/mbeeby/genomics/hmms//L3.hmm
+# Target file:     /beebylab/home/mbeeby/projects/giantFlagellins/small_genome_set/Shewanella.faa
+# Option settings: hmmsearch --tblout .tbloutFile356722 --domtblout .domtbloutFile356722 /beebylab/home/mbeeby/genomics/hmms//L3.hmm /beebylab/home/mbeeby/projects/giantFlagellins/small_genome_set/Shewanella.faa 
+# Current dir:     /beebylab/home/mbeeby/workspace/bioinformatics/annotate
+# Date:            Wed Aug  2 17:55:17 2017
+# [ok]

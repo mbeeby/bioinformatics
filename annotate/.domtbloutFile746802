@@ -1,0 +1,15 @@
+#                                                                                                --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                            accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                    ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+lcl|NC_009438.1_prot_WP_011787573.1_3807 -            274 Ribosomal_L2         PF00181.22    77   1.2e-34  116.0   2.2   1   2   4.1e-37   1.6e-33  112.3   1.1     1    76    42   117    42   118 0.98 [gene=SPUTCN32_RS19500] [protein=/inference=COORDINATES: similar to AA sequence:RefSeq:WP_013053416.1] [protein_id=WP_011787573.1] [location=complement(4359154..4359978)]
+lcl|NC_009438.1_prot_WP_011787573.1_3807 -            274 Ribosomal_L2         PF00181.22    77   1.2e-34  116.0   2.2   2   2    0.0097        39    2.2   0.0    35    52   139   156   128   161 0.87 [gene=SPUTCN32_RS19500] [protein=/inference=COORDINATES: similar to AA sequence:RefSeq:WP_013053416.1] [protein_id=WP_011787573.1] [location=complement(4359154..4359978)]
+#
+# Program:         hmmsearch
+# Version:         3.1b1 (May 2013)
+# Pipeline mode:   SEARCH
+# Query file:      /beebylab/home/mbeeby/genomics/hmms//L2.hmm
+# Target file:     /beebylab/home/mbeeby/projects/giantFlagellins/small_genome_set/Shewanella.faa
+# Option settings: hmmsearch --tblout .tbloutFile746802 --domtblout .domtbloutFile746802 /beebylab/home/mbeeby/genomics/hmms//L2.hmm /beebylab/home/mbeeby/projects/giantFlagellins/small_genome_set/Shewanella.faa 
+# Current dir:     /beebylab/home/mbeeby/workspace/bioinformatics/annotate
+# Date:            Wed Aug  2 17:55:17 2017
+# [ok]

@@ -1,0 +1,17 @@
+#                                                                                   --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name                            accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#                    ------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+lcl|NC_002163.1_prot_YP_002344726.1_1213 -          Flagellin_N          PF00669.19   1.5e-43  144.8  17.2   1.5e-43  144.8  17.2   3.8   4   1   1   5   5   5   1 [gene=flaB] [protein=flagellin B] [protein_id=YP_002344726.1] [location=complement(1267368..1269086)]
+lcl|NC_002163.1_prot_YP_002344727.1_1214 -          Flagellin_N          PF00669.19   9.9e-43  142.2  19.6   9.9e-43  142.2  19.6   3.8   3   1   0   3   3   3   1 [gene=flaA] [protein=flagellin A] [protein_id=YP_002344727.1] [location=complement(1269232..1270950)]
+lcl|NC_002163.1_prot_YP_002344286.1_783  -          Flagellin_N          PF00669.19     1e-18   64.4  11.7     1e-18   64.4  11.7   3.9   5   0   0   5   5   5   1 [gene=Cj0887c] [protein=flagellin] [protein_id=YP_002344286.1] [location=complement(823633..825885)]
+lcl|NC_002163.1_prot_YP_002344138.1_646  -          Flagellin_N          PF00669.19   3.6e-14   49.6  16.1   3.6e-14   49.6  16.1   2.5   2   1   0   2   2   2   1 [gene=flaC] [protein=flagellin C] [protein_id=YP_002344138.1] [location=complement(676227..676976)]
+#
+# Program:         hmmsearch
+# Version:         3.1b1 (May 2013)
+# Pipeline mode:   SEARCH
+# Query file:      /beebylab/home/mbeeby/genomics/hmms//Flagellin_N.hmm
+# Target file:     /beebylab/home/mbeeby/projects/giantFlagellins/small_genome_set/Campy.faa
+# Option settings: hmmsearch --tblout .tbloutFile38596 --domtblout .domtbloutFile38596 /beebylab/home/mbeeby/genomics/hmms//Flagellin_N.hmm /beebylab/home/mbeeby/projects/giantFlagellins/small_genome_set/Campy.faa 
+# Current dir:     /beebylab/home/mbeeby/workspace/bioinformatics/annotate
+# Date:            Wed Aug  2 17:55:21 2017
+# [ok]

@@ -1,0 +1,16 @@
+#                                                                                               --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                           accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                   ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+lcl|NC_002163.1_prot_YP_002343757.1_279 -            342 FliG_N               PF14842.5    104     1e-39  131.8  11.1   1   3   2.5e-33   3.9e-30  101.1   0.1     2   102    15   115    14   117 0.98 [gene=fliG] [protein=flagellar motor switch protein] [protein_id=YP_002343757.1] [location=290139..291167]
+lcl|NC_002163.1_prot_YP_002343757.1_279 -            342 FliG_N               PF14842.5    104     1e-39  131.8  11.1   2   3   1.4e-11   2.2e-08   31.2   0.2     4    99   137   233   136   237 0.83 [gene=fliG] [protein=flagellar motor switch protein] [protein_id=YP_002343757.1] [location=290139..291167]
+lcl|NC_002163.1_prot_YP_002343757.1_279 -            342 FliG_N               PF14842.5    104     1e-39  131.8  11.1   3   3    0.0017       2.6    5.2   0.8    17    70   279   334   276   342 0.80 [gene=fliG] [protein=flagellar motor switch protein] [protein_id=YP_002343757.1] [location=290139..291167]
+#
+# Program:         hmmsearch
+# Version:         3.1b1 (May 2013)
+# Pipeline mode:   SEARCH
+# Query file:      /beebylab/home/mbeeby/genomics/hmms//FliGn.hmm
+# Target file:     /beebylab/home/mbeeby/projects/giantFlagellins/small_genome_set/Campy.faa
+# Option settings: hmmsearch --tblout .tbloutFile246071 --domtblout .domtbloutFile246071 /beebylab/home/mbeeby/genomics/hmms//FliGn.hmm /beebylab/home/mbeeby/projects/giantFlagellins/small_genome_set/Campy.faa 
+# Current dir:     /beebylab/home/mbeeby/workspace/bioinformatics/annotate
+# Date:            Wed Aug  2 17:55:21 2017
+# [ok]

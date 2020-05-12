@@ -1,0 +1,17 @@
+#                                                                                                 --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                            accession   tlen query name            accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                    ------------------- ---------- -----  -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+lcl|NC_002163.1_prot_YP_002344286.1_783  -            750 170724_flgL-alignment -            435  4.3e-199  658.8  36.0   1   1  1.1e-201  5.6e-199  658.4  36.0     1   434     1   750     1   750 0.99 [gene=Cj0887c] [protein=flagellin] [protein_id=YP_002344286.1] [location=complement(823633..825885)]
+lcl|NC_002163.1_prot_YP_002344726.1_1213 -            572 170724_flgL-alignment -            435   4.8e-19   65.5  25.3   1   1   6.3e-19   3.3e-16   56.1  25.3    11   410    13   545     3   572 0.62 [gene=flaB] [protein=flagellin B] [protein_id=YP_002344726.1] [location=complement(1267368..1269086)]
+lcl|NC_002163.1_prot_YP_002344727.1_1214 -            572 170724_flgL-alignment -            435   2.3e-18   63.3  29.0   1   2   6.2e-19   3.3e-16   56.1  14.2    11   143    13   145     3   296 0.91 [gene=flaA] [protein=flagellin A] [protein_id=YP_002344727.1] [location=complement(1269232..1270950)]
+lcl|NC_002163.1_prot_YP_002344727.1_1214 -            572 170724_flgL-alignment -            435   2.3e-18   63.3  29.0   2   2   0.00018     0.092    8.5  12.3   353   416   450   551   147   572 0.68 [gene=flaA] [protein=flagellin A] [protein_id=YP_002344727.1] [location=complement(1269232..1270950)]
+#
+# Program:         hmmsearch
+# Version:         3.1b1 (May 2013)
+# Pipeline mode:   SEARCH
+# Query file:      /beebylab/home/mbeeby/genomics/hmms//FlorianFlgL.hmm
+# Target file:     /beebylab/home/mbeeby/projects/giantFlagellins/small_genome_set/Campy.faa
+# Option settings: hmmsearch --tblout .tbloutFile286841 --domtblout .domtbloutFile286841 /beebylab/home/mbeeby/genomics/hmms//FlorianFlgL.hmm /beebylab/home/mbeeby/projects/giantFlagellins/small_genome_set/Campy.faa 
+# Current dir:     /beebylab/home/mbeeby/workspace/bioinformatics/annotate
+# Date:            Wed Aug  2 17:55:22 2017
+# [ok]

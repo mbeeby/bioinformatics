@@ -1,0 +1,14 @@
+#                                                                                  --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name                           accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#                   ------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+lcl|NC_002163.1_prot_YP_002343756.1_278 -          YscJ_FliF_C          PF08345.10   8.2e-41  136.4  10.0   1.7e-39  132.1   5.6   2.5   2   0   0   2   2   2   2 [gene=fliF] [protein=flagellar MS-ring protein] [protein_id=YP_002343756.1] [location=288457..290139]
+#
+# Program:         hmmsearch
+# Version:         3.1b1 (May 2013)
+# Pipeline mode:   SEARCH
+# Query file:      /beebylab/home/mbeeby/genomics/hmms//FliFc.hmm
+# Target file:     /beebylab/home/mbeeby/projects/giantFlagellins/small_genome_set/Campy.faa
+# Option settings: hmmsearch --tblout .tbloutFile855343 --domtblout .domtbloutFile855343 /beebylab/home/mbeeby/genomics/hmms//FliFc.hmm /beebylab/home/mbeeby/projects/giantFlagellins/small_genome_set/Campy.faa 
+# Current dir:     /beebylab/home/mbeeby/workspace/bioinformatics/annotate
+# Date:            Wed Aug  2 17:55:21 2017
+# [ok]
