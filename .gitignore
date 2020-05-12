@@ -1,2 +1,3 @@
 .domtbloutFile*
 .tbloutFile*
+*.pyc
